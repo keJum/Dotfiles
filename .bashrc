@@ -123,3 +123,11 @@ export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export PATH='/home/kejum/.local/bin:/home/kejum/.local/bin:/home/kejum/.nvm/versions/node/v11.15.0/bin:/home/kejum/.config/composer/vendor/bin:/home/kejum/.local/share/umake/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+
+powerline-daemon -q
+POWERLINE_BASH_CONTINUATION=1
+POWERLINE_BASH_SELECT=1
+/home/kejum/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
+
+export TERM='screen-256color'
