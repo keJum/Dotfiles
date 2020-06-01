@@ -17,9 +17,11 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'kien/ctrlp.vim'
+Plug 'arcticicestudio/nord-vim'
 
 call plug#end()
 
+colorscheme nord
 let NERDTreeShowHidden=1
 
 "mappings
