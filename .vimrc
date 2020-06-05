@@ -19,6 +19,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'kien/ctrlp.vim'
 Plug 'arcticicestudio/nord-vim'
 Plug 'tpope/vim-commentary'
+Plug 'mattn/emmet-vim'
 
 call plug#end()
 
