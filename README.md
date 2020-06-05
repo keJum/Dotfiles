@@ -10,3 +10,18 @@ $ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ```vim
 :PlugInstall
 ```
+Подробнее https://github.com/junegunn/vim-plug
+
+
+# Установка плагина для tmux
+
+```bash
+$ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+```
+
+Для установки выполнить 
+
+```prefix```(ctrl+b)+```i```
+
+Подробнее https://github.com/tmux-plugins/tpm
