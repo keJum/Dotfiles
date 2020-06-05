@@ -18,6 +18,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'kien/ctrlp.vim'
 Plug 'arcticicestudio/nord-vim'
+Plug 'tpope/vim-commentary'
 
 call plug#end()
 
