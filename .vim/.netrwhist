@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =5
-let g:netrw_dirhist_5='/media/kejum/Project/My/hacking/0x200/0x265'
-let g:netrw_dirhist_4='/media/kejum/Project/My/python/helloRobot'
-let g:netrw_dirhist_3='/media/kejum/Project/My/python/traning'
-let g:netrw_dirhist_2='/home/kejum'
-let g:netrw_dirhist_1='/media/kejum/Project/My/python'
