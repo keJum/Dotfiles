@@ -22,6 +22,6 @@ $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 Для установки выполнить 
 
-```prefix```(ctrl+b)+```i```
+```prefix```(ctrl+b)+```I```
 
 Подробнее https://github.com/tmux-plugins/tpm
