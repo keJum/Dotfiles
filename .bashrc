@@ -128,6 +128,6 @@ export PATH='/home/kejum/.local/bin:/home/kejum/.local/bin:/home/kejum/.nvm/vers
 powerline-daemon -q
 POWERLINE_BASH_CONTINUATION=1
 POWERLINE_BASH_SELECT=1
-/home/kejum/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
+. /home/kejum/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh
 
 export TERM='screen-256color'
