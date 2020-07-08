@@ -25,3 +25,14 @@ $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```prefix```(ctrl+b)+```I```
 
 Подробнее https://github.com/tmux-plugins/tpm
+
+# Ошибки 
+
+Когда vim не видит команду `function plug#begin`
+Выполнить
+```
+cd ~/.vim/
+mkdir autoload
+sudo mv ~/.config/nvim/plug.vim ~/.vim/autoload
+sudo chmod +rwx autoload/
+```
