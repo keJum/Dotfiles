@@ -12,6 +12,12 @@ $ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ```
 Подробнее https://github.com/junegunn/vim-plug
 
+## Плагин YourCompleteMe
+```
+$ apt install build-essential cmake vim python3-dev
+$ python3 ~/.vim/plugged/YouCompleteMe/install.py
+```
+
 
 # Установка плагина для tmux
 
