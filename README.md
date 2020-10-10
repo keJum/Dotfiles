@@ -1,28 +1,46 @@
 # Установка плагинов для vim
 
 ```bash
-$ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
+    
+ln -s dotfile/.vimrc ~/.vimrc
 ```
-После в vim выполнить 
+
+В vim выполнить 
 
 ```vim
 :PlugInstall
 ```
+
 Подробнее https://github.com/junegunn/vim-plug
 
+
 ## Плагин YourCompleteMe
-```
-$ apt install build-essential cmake vim python3-dev
-$ python3 ~/.vim/plugged/YouCompleteMe/install.py
+
+```bash
+apt install build-essential cmake vim python3-dev
+python3 ~/.vim/plugged/YouCompleteMe/install.py
 ```
 
+## PowerLine 
+
+```bash
+apt install powerline
+
+```
+
+Перед следующей командой нужно убедиться что файл .bashrc не затрёт нужные данные 
+
+```bash
+ln -s dotfile/.bashrc ~/.bashrc
+```
 
 # Установка плагина для tmux
 
 ```bash
-$ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+ln -s dotfile/.tmux.conf ~/.tmux.conf
 
 ```
 
