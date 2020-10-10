@@ -30,10 +30,9 @@ apt install powerline
 
 ```
 
-Перед следующей командой нужно убедиться что файл .bashrc не затрёт нужные данные 
 
 ```bash
-ln -s dotfile/.bashrc ~/.bashrc
+cat dotifile/.bashrc >> ~/.bashrc
 ```
 
 # Установка плагина для tmux
