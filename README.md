@@ -32,7 +32,7 @@ apt install powerline
 
 
 ```bash
-cat dotifile/.bashrc >> ~/.bashrc
+cat dotfile/.bashrc >> ~/.bashrc
 ```
 
 # Установка плагина для tmux
