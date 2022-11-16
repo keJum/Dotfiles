@@ -4,7 +4,7 @@
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
     
-ln -s dotfile/.vimrc ~/.vimrc
+ln -s Dotfile/.vimrc ~/.vimrc
 ```
 
 В vim выполнить 
@@ -32,14 +32,14 @@ apt install powerline
 
 
 ```bash
-cat dotfile/.bashrc >> ~/.bashrc
+cat Dotfile/.bashrc >> ~/.bashrc
 ```
 
 # Установка плагина для tmux
 
 ```bash
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-ln -s dotfile/.tmux.conf ~/.tmux.conf
+ln -s Dotfile/.tmux.conf ~/.tmux.conf
 
 ```
 
