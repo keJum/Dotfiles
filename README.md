@@ -58,7 +58,7 @@ $ ln -s Dotfiles/.tmux.conf ~/.tmux.conf
 $ cd ~/.vim/
 $ mkdir autoload
 $ sudo mv ~/.config/nvim/plug.vim ~/.vim/autoload
-sudo chmod +rwx autoload/
+$ sudo chmod +rwx autoload/
 ```
 
 # GoLang 
